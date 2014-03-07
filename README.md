@@ -1,4 +1,6 @@
 CFGraph
 =======
+py graphing utility
+Written by yungcrypt
 
-python scientific/economic graphing util
+Requires python2.7, matplotlib, numpy, and pytz.
