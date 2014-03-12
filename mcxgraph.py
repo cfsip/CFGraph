@@ -1,3 +1,6 @@
+#!/usr/bin/env python
+# Copyright 2014 CryptoFinancial Strategies LLC
+# & yungcrypt
 #import requests
 import numpy as np 
 import matplotlib.pyplot as plt
@@ -45,7 +48,7 @@ def graph_animate(i):
 
 	#shows grid
 	ax1.grid(b=True, which='major', color='r')
-	plt.title('MCX BUX', color='w')
+	plt.title('CFS Betagraph V0.0.1', color='w')
 	#plt x, and y cords
 	ax1.plot_date(md.epoch2num(x), y,'r',tz=est,linewidth=2,xdate=True,marker='o')
 

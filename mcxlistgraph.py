@@ -1,3 +1,6 @@
+#!/usr/bin/env python
+# Copyright 2014 CryptoFinancial Strategies LLC
+# & yungcrypt
 from mcxnowapi import McxNowSession
 import requests
 import numpy as np 
@@ -11,6 +14,8 @@ S = McxNowSession("","")
 cur = raw_input('what currency are we working with?: ')
 cur_history = S.GetCurrencyHistoryOrders(cur)
 #Data is returned in lists [time,type,ammt,ammtbtc,price]
+
+
 
 def write_hist_data():
 
